@@ -1,0 +1,145 @@
+{
+  "title": "Chapter 1: The Beginning",
+  "author": null,
+  "language": "en",
+  "word_count": 89,
+  "sentence_count": 8,
+  "chapters": [
+    {
+      "index": 0,
+      "title": "Chapter 1: The Beginning",
+      "start_char": 0,
+      "end_char": 160,
+      "text": "Chapter 1: The Beginning\n\nOnce upon a time, in a small village, there lived a young woman named Alice. She was known for her kindness and her beautiful garden.",
+      "word_count": 29,
+      "sentence_count": 2,
+      "avg_sentence_length": 14.5,
+      "dialogue_ratio": 0.0,
+      "readability": {
+        "flesch_reading_ease": 75.42784482758621,
+        "flesch_kincaid_grade": 6.340862068965521,
+        "coleman_liau_index": 7.1586206896551765,
+        "smog_index": 8.841846274778883,
+        "automated_readability_index": 6.933793103448274,
+        "dale_chall_readability_score": 7.078113793103448
+      },
+      "entities": {
+        "PERSON": [
+          "Alice"
+        ]
+      },
+      "keywords": [
+        "woman named Alice",
+        "young woman named",
+        "named Alice",
+        "small village",
+        "lived a young",
+        "young woman",
+        "woman named",
+        "Alice",
+        "Chapter",
+        "Beginning",
+        "time",
+        "village"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.777,
+        "pos": 0.223,
+        "compound": 0.7845
+      },
+      "summary": "Chapter 1: The Beginning Once upon a time, in a small village, there lived a young woman named Alice. She was known for her kindness and her beautiful garden."
+    },
+    {
+      "index": 1,
+      "title": "Chapter 2: The Adventure",
+      "start_char": 160,
+      "end_char": 349,
+      "text": "Chapter 2: The Adventure\n\nAlice decided to go on an adventure. She packed her bags and set off to explore the world beyond her village. Along the way, she met many interesting characters.",
+      "word_count": 33,
+      "sentence_count": 3,
+      "avg_sentence_length": 11.0,
+      "dialogue_ratio": 0.0,
+      "readability": {
+        "flesch_reading_ease": 67.48818181818186,
+        "flesch_kincaid_grade": 6.578787878787878,
+        "coleman_liau_index": 7.696969696969699,
+        "smog_index": 10.504223727775692,
+        "automated_readability_index": 6.050000000000001,
+        "dale_chall_readability_score": 8.488463636363637
+      },
+      "entities": {},
+      "keywords": [
+        "Adventure Alice decided",
+        "Adventure Alice",
+        "Alice decided",
+        "Adventure",
+        "Chapter",
+        "Alice",
+        "decided",
+        "packed her bags",
+        "bags and set",
+        "explore the world",
+        "interesting characters",
+        "village"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.804,
+        "pos": 0.196,
+        "compound": 0.743
+      },
+      "summary": "Chapter 2: The Adventure Alice decided to go on an adventure. She packed her bags and set off to explore the world beyond her village. Along the way, she met many interesting characters."
+    },
+    {
+      "index": 2,
+      "title": "Chapter 3: The Return",
+      "start_char": 349,
+      "end_char": 499,
+      "text": "Chapter 3: The Return\n\nAfter many months of traveling, Alice returned to her village. She had learned so much and had many stories to tell.\n\nThe end.",
+      "word_count": 27,
+      "sentence_count": 3,
+      "avg_sentence_length": 9.0,
+      "dialogue_ratio": 0.0,
+      "readability": {
+        "flesch_reading_ease": 74.06583333333336,
+        "flesch_kincaid_grade": 6.282407407407408,
+        "coleman_liau_index": 6.925925925925927,
+        "smog_index": 7.168621630094336,
+        "automated_readability_index": 6.427777777777781,
+        "dale_chall_readability_score": 7.814988888888889
+      },
+      "entities": {
+        "PERSON": [
+          "Alice"
+        ]
+      },
+      "keywords": [
+        "Alice returned",
+        "months of traveling",
+        "Chapter",
+        "Alice",
+        "Return",
+        "traveling",
+        "village",
+        "months",
+        "returned",
+        "end",
+        "learned",
+        "stories"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "summary": "Chapter 3: The Return After many months of traveling, Alice returned to her village. She had learned so much and had many stories to tell. The end."
+    }
+  ],
+  "top_entities": {
+    "PERSON": [
+      "Alice"
+    ]
+  }
+}

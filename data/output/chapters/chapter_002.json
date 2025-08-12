@@ -1,0 +1,45 @@
+{
+  "index": 2,
+  "title": "Chapter 3: The Return",
+  "start_char": 349,
+  "end_char": 499,
+  "text": "Chapter 3: The Return\n\nAfter many months of traveling, Alice returned to her village. She had learned so much and had many stories to tell.\n\nThe end.",
+  "word_count": 27,
+  "sentence_count": 3,
+  "avg_sentence_length": 9.0,
+  "dialogue_ratio": 0.0,
+  "readability": {
+    "flesch_reading_ease": 74.06583333333336,
+    "flesch_kincaid_grade": 6.282407407407408,
+    "coleman_liau_index": 6.925925925925927,
+    "smog_index": 7.168621630094336,
+    "automated_readability_index": 6.427777777777781,
+    "dale_chall_readability_score": 7.814988888888889
+  },
+  "entities": {
+    "PERSON": [
+      "Alice"
+    ]
+  },
+  "keywords": [
+    "Alice returned",
+    "months of traveling",
+    "Chapter",
+    "Alice",
+    "Return",
+    "traveling",
+    "village",
+    "months",
+    "returned",
+    "end",
+    "learned",
+    "stories"
+  ],
+  "sentiment": {
+    "neg": 0.0,
+    "neu": 1.0,
+    "pos": 0.0,
+    "compound": 0.0
+  },
+  "summary": "Chapter 3: The Return After many months of traveling, Alice returned to her village. She had learned so much and had many stories to tell. The end."
+}

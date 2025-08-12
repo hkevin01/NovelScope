@@ -1,0 +1,111 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install NovelScope",
+			"type": "shell",
+			"command": "pip install -e .",
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Create Virtual Environment",
+			"type": "shell",
+			"command": "python3 -m venv .venv",
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Install Dependencies",
+			"type": "shell",
+			"command": "source .venv/bin/activate && pip install -e .",
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Download spaCy Model",
+			"type": "shell",
+			"command": "source .venv/bin/activate && python -m spacy download en_core_web_sm",
+			"problemMatcher": [],
+			"group": "setup"
+		},
+		{
+			"label": "Download spaCy Model",
+			"type": "shell",
+			"command": ".venv/bin/python -m spacy download en_core_web_sm",
+			"problemMatcher": [],
+			"group": "setup"
+		},
+		{
+			"label": "Download NLTK VADER",
+			"type": "shell",
+			"command": ".venv/bin/python -c \"import nltk; nltk.download('vader_lexicon')\"",
+			"problemMatcher": [],
+			"group": "setup"
+		},
+		{
+			"label": "Test NovelScope CLI",
+			"type": "shell",
+			"command": ".venv/bin/python -m novelscope analyze data/input/sample.txt --out data/output",
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Test NovelScope CLI Direct",
+			"type": "shell",
+			"command": ".venv/bin/novelscope analyze data/input/sample.txt --out data/output",
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Download NLTK punkt data",
+			"type": "shell",
+			"command": ".venv/bin/python -c \"import nltk; nltk.download('punkt'); nltk.download('punkt_tab')\"",
+			"problemMatcher": [],
+			"group": "setup"
+		},
+		{
+			"label": "Test NovelScope CLI Again",
+			"type": "shell",
+			"command": ".venv/bin/novelscope analyze data/input/sample.txt --out data/output",
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Test NovelScope API Server",
+			"type": "shell",
+			"command": ".venv/bin/novelscope api --host 127.0.0.1 --port 8000 --workers 1",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Run Tests",
+			"type": "shell",
+			"command": ".venv/bin/python -m pytest tests/ -v",
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Install pytest",
+			"type": "shell",
+			"command": ".venv/bin/pip install pytest",
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Run Tests",
+			"type": "shell",
+			"command": ".venv/bin/python -m pytest tests/ -v",
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Run Failing Test",
+			"type": "shell",
+			"command": ".venv/bin/python -m pytest tests/test_segmentation.py::test_fallback_single_chapter -v",
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}

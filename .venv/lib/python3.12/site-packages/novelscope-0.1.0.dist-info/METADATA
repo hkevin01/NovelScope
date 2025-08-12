@@ -1,0 +1,64 @@
+Metadata-Version: 2.4
+Name: novelscope
+Version: 0.1.0
+Summary: Analyze novels: chapters, metadata, tags, and more.
+Author: You
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: spacy>=3.7.0
+Requires-Dist: pymupdf>=1.21.0
+Requires-Dist: pdfminer.six>=20221105
+Requires-Dist: python-docx>=0.8.11
+Requires-Dist: pydantic>=2.6.0
+Requires-Dist: typer[all]>=0.9.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: textstat>=0.7.3
+Requires-Dist: yake>=0.4.8
+Requires-Dist: nltk>=3.8.1
+Requires-Dist: sumy>=0.11.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: fastapi>=0.104.0
+Requires-Dist: uvicorn[standard]>=0.24.0
+Requires-Dist: python-multipart>=0.0.6
+Provides-Extra: extras
+Requires-Dist: networkx>=3.2.0; extra == "extras"
+Requires-Dist: keybert>=0.8.4; extra == "extras"
+Requires-Dist: sentence-transformers>=2.2.2; extra == "extras"
+Requires-Dist: hdbscan>=0.8.33; extra == "extras"
+Requires-Dist: bertopic>=0.16.0; extra == "extras"
+Requires-Dist: booknlp>=1.0.0; extra == "extras"
+Requires-Dist: torch>=2.2.0; extra == "extras"
+
+# NovelScope
+
+Analyze novels (PDF/DOCX): split into chapters, extract metadata, tags, sentiment, readability, and summaries. Outputs JSON and CSV.
+
+## Quickstart
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -e .
+python -m spacy download en_core_web_sm
+python -c "import nltk; nltk.download('vader_lexicon')"
+
+novelscope analyze data/input/example.pdf --out data/output
+```
+
+## Features
+
+- PDF/DOCX ingest (PyMuPDF, python-docx)
+- Chapter segmentation
+- NER, keywords, readability, sentiment, dialogue ratio, summaries
+- CLI and API server
+
+## Roadmap
+
+- Character graphs, coref (BookNLP)
+- Topic modeling (BERTopic/KeyBERT)
+- LLM critique (OpenAI/Ollama)
+
+## License
+
+MIT

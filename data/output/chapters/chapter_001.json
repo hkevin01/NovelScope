@@ -1,0 +1,41 @@
+{
+  "index": 1,
+  "title": "Chapter 2: The Adventure",
+  "start_char": 160,
+  "end_char": 349,
+  "text": "Chapter 2: The Adventure\n\nAlice decided to go on an adventure. She packed her bags and set off to explore the world beyond her village. Along the way, she met many interesting characters.",
+  "word_count": 33,
+  "sentence_count": 3,
+  "avg_sentence_length": 11.0,
+  "dialogue_ratio": 0.0,
+  "readability": {
+    "flesch_reading_ease": 67.48818181818186,
+    "flesch_kincaid_grade": 6.578787878787878,
+    "coleman_liau_index": 7.696969696969699,
+    "smog_index": 10.504223727775692,
+    "automated_readability_index": 6.050000000000001,
+    "dale_chall_readability_score": 8.488463636363637
+  },
+  "entities": {},
+  "keywords": [
+    "Adventure Alice decided",
+    "Adventure Alice",
+    "Alice decided",
+    "Adventure",
+    "Chapter",
+    "Alice",
+    "decided",
+    "packed her bags",
+    "bags and set",
+    "explore the world",
+    "interesting characters",
+    "village"
+  ],
+  "sentiment": {
+    "neg": 0.0,
+    "neu": 0.804,
+    "pos": 0.196,
+    "compound": 0.743
+  },
+  "summary": "Chapter 2: The Adventure Alice decided to go on an adventure. She packed her bags and set off to explore the world beyond her village. Along the way, she met many interesting characters."
+}

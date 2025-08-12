@@ -1,0 +1,45 @@
+{
+  "index": 0,
+  "title": "Chapter 1: The Beginning",
+  "start_char": 0,
+  "end_char": 160,
+  "text": "Chapter 1: The Beginning\n\nOnce upon a time, in a small village, there lived a young woman named Alice. She was known for her kindness and her beautiful garden.",
+  "word_count": 29,
+  "sentence_count": 2,
+  "avg_sentence_length": 14.5,
+  "dialogue_ratio": 0.0,
+  "readability": {
+    "flesch_reading_ease": 75.42784482758621,
+    "flesch_kincaid_grade": 6.340862068965521,
+    "coleman_liau_index": 7.1586206896551765,
+    "smog_index": 8.841846274778883,
+    "automated_readability_index": 6.933793103448274,
+    "dale_chall_readability_score": 7.078113793103448
+  },
+  "entities": {
+    "PERSON": [
+      "Alice"
+    ]
+  },
+  "keywords": [
+    "woman named Alice",
+    "young woman named",
+    "named Alice",
+    "small village",
+    "lived a young",
+    "young woman",
+    "woman named",
+    "Alice",
+    "Chapter",
+    "Beginning",
+    "time",
+    "village"
+  ],
+  "sentiment": {
+    "neg": 0.0,
+    "neu": 0.777,
+    "pos": 0.223,
+    "compound": 0.7845
+  },
+  "summary": "Chapter 1: The Beginning Once upon a time, in a small village, there lived a young woman named Alice. She was known for her kindness and her beautiful garden."
+}

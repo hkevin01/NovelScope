@@ -1,0 +1,8 @@
+language: en
+spacy_model: en_core_web_sm
+keywords:
+  top_k: 12
+entities:
+  top_k: 15
+summary:
+  sentences: 5
