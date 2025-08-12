@@ -120,6 +120,13 @@
 			"command": ".venv/bin/novelscope analyze data/input/sample.txt --out data/output",
 			"problemMatcher": [],
 			"group": "test"
+		},
+		{
+			"label": "Final clean status check",
+			"type": "shell",
+			"command": "git status",
+			"problemMatcher": [],
+			"group": "git"
 		}
 	]
 }
