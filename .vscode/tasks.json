@@ -106,6 +106,20 @@
 			"command": ".venv/bin/python -m pytest tests/test_segmentation.py::test_fallback_single_chapter -v",
 			"problemMatcher": [],
 			"group": "test"
+		},
+		{
+			"label": "Run All Tests",
+			"type": "shell",
+			"command": ".venv/bin/python -m pytest tests/ -v",
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Final CLI Test",
+			"type": "shell",
+			"command": ".venv/bin/novelscope analyze data/input/sample.txt --out data/output",
+			"problemMatcher": [],
+			"group": "test"
 		}
 	]
 }
